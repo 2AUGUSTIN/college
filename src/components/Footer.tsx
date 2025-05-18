@@ -1,5 +1,13 @@
-import  { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Globe } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Globe, Youtube, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+
+// WhatsApp icon as SVG (since lucide-react does not export Whatsapp)
+const WhatsappIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M16.72 13.06a4.72 4.72 0 0 1-2.06-.56c-.32-.16-.7-.36-1.1-.6-.36-.22-.6-.36-.86-.6-.26-.24-.44-.5-.62-.8-.18-.3-.3-.6-.36-.86-.06-.26-.06-.5-.06-.7 0-.2.02-.38.06-.54.04-.16.1-.3.18-.44.08-.14.18-.26.3-.36.12-.1.26-.18.42-.24.16-.06.34-.1.54-.1.2 0 .38.02.54.06.16.04.3.1.44.18.14.08.26.18.36.3.1.12.18.26.24.42.06.16.1.34.1.54 0 .2-.02.38-.06.54-.04.16-.1.3-.18.44-.08.14-.18.26-.3.36-.12.1-.26.18-.42.24-.16.06-.34.1-.54.1-.2 0-.38-.02-.54-.06-.16-.04-.3-.1-.44-.18-.14-.08-.26-.18-.36-.3-.1-.12-.18-.26-.24-.42-.06-.16-.1-.34-.1-.54 0-.2.02-.38.06-.54.04-.16.1-.3.18-.44.08-.14.18-.26.3-.36.12-.1.26-.18.42-.24.16-.06.34-.1.54-.1.2 0 .38.02.54.06.16.04.3.1.44.18.14.08.26.18.36.3.1.12.18.26.24.42.06.16.1.34.1.54 0 .2-.02.38-.06.54-.04.16-.1.3-.18.44-.08.14-.18.26-.3.36-.12.1-.26.18-.42.24-.16.06-.34.1-.54.1z" />
+    <circle cx="12" cy="12" r="10" />
+  </svg>
+);
 
 const Footer = () => {
   return (
@@ -11,14 +19,23 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">CBG II TVET School</h3>
             <p className="mb-4 text-blue-200">Providing quality technical education and empowering students to become leaders in their fields.</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-white hover:text-blue-300 transition-colors">
+              <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white hover:text-blue-300 transition-colors">
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-white hover:text-blue-300 transition-colors">
+              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 transition-colors">
                 <Instagram className="h-5 w-5" />
+              </a>
+              <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 transition-colors">
+                <Youtube className="h-5 w-5" />
+              </a>
+              <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 transition-colors">
+                <WhatsappIcon className="h-5 w-5" />
+              </a>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-300 transition-colors">
+                <Linkedin className="h-5 w-5" />
               </a>
             </div>
           </div>

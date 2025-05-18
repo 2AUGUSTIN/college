@@ -13,7 +13,7 @@ const Admissions: React.FC = () => (
           <li>Campus tours</li>
         </ul>
       </div>
-      <img src="/src/assets/african-student.jpg" alt="African Student" className="w-full md:w-1/2 rounded-lg shadow-lg object-cover h-64 md:h-96" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqU2SEvIjOuiDDq-c1yc-qMmsG8M2iBgfcKw&s" alt="African Student" className="w-full md:w-1/2 rounded-lg shadow-lg object-cover h-64 md:h-96" />
     </div>
   </div>
 );

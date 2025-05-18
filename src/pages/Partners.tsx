@@ -43,7 +43,7 @@ const Partners: React.FC = () => (
           </div>
         </div>
       </div>
-      <img src="/src/assets/african-student.jpg" alt="Partner Collaboration" className="w-full md:w-1/2 rounded-lg shadow-lg object-cover h-64 md:h-96 mb-6 md:mb-0" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrtvhQmvwdYTJoX8TKGQB8o5XgFlKrEj3zpg&s" alt="Partner Collaboration" className="w-full md:w-1/2 rounded-lg shadow-lg object-cover h-64 md:h-96 mb-6 md:mb-0" />
     </div>
   </div>
 );
