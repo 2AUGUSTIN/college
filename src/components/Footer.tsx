@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-blue-800 mt-12 pt-8 text-center text-blue-300 text-sm">
-          <p>&copy; {new Date().getFullYear()} CBG II TVET School. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} CBG II TVET School. </p>
         </div>
       </div>
     </footer>
